@@ -1,7 +1,3 @@
-
-/* eslint-disable no-undef, no-unused-vars */
-
-// CONFIGURACIÓN DEL GRÁFICO
 let options = {
   tooltip: {
     trigger: "item",
@@ -43,6 +39,5 @@ let options = {
   ]
 };
 
-// Crea el gráfico
 let pieChart = echarts.init(document.getElementById("grafico"));
 pieChart.setOption(options);
